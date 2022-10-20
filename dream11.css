@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url("https://i.pinimg.com/originals/56/37/83/56378382ab110e49b2ec8116f37cf15e.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: fit-content;
+}
+
+.look img {
+    width: 20vh;
+    height: 14vh;
+    padding-left: 40vh;
+    padding-top: 50px;
+}
+
+.me img {
+    width: 50vh;
+    height: 350px;
+    margin-left: 70vh;
+}
+
+button {
+    margin-left: 65vh;
+    width: 60vh;
+    height: auto;
+    font-weight: bolder;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+}
+
+lil {
+    color: black;
+}
+
+footer {
+    background-color: grey;
+    width: auto;
+    justify-content: space-between;
+    font-weight: 10px;
+    font-size: 25px;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 15px;
+    border: none;
+    padding: 0;
+}
+
+p {
+    background-color: grey;
+    width: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0;
+}
+
+@media (max-width:1000px) {
+    header {
+        display: block;
+        padding-left: 100%;
+        height: fit-content;
+    }
+    .look img {
+        width: min-content;
+        padding-left: 20vh;
+    }
+    .me img {
+        width: auto;
+        margin-left: 35vh;
+        height: fit-content;
+    }
+    button a {
+        width: auto;
+        margin-left: 25vh;
+        height: fit-content;
+    }
+}
+
+@media (min-width:351px) and (max-width:999px) {
+    header {
+        display: block;
+        padding-left: 100%;
+        height: fit-content;
+    }
+    .look img {
+        width: min-content;
+        height: 30vh;
+        padding-left: 5vh;
+    }
+    .me img {
+        width: auto;
+        padding-right: 0px;
+        height: fit-content;
+    }
+    button a {
+        width: auto;
+        margin-left: 0vh;
+        margin-right: 20vh;
+        height: fit-content;
+    }
+    footer a {
+        width: 853.5px;
+    }
+}
+
+@media(max-width:350px) {
+    header {
+        display: block;
+        padding-left: 100%;
+        height: auto;
+    }
+    .look img {
+        width: auto;
+    }
+    .me img {
+        width: auto;
+    }
+    button a {
+        width: auto;
+    }
+    footer a {
+        width: auto;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        header,
+        nav,
+        a {
+            /* background-color: black; */
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-right: 40px;
+            color: black;
+            text-decoration: none;
+            padding: 5px 0px;
+            margin-left: 15px;
+            text-transform: uppercase;
+            font-family: apple-system;
+            box-sizing: border-box;
+            transition: all 0.3s ease-out 0s;
+            max-width: 90vw;
+            margin: auto;
+        }
+        
+        nav::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+        
+        nav:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        
+        nav::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            inset: 0 0 0 0;
+            background: lightslategray;
+            z-index: -1;
+            transition: transform 0.5s ease;
+        }
+        
+        body {
+            font-family: system-ui, sans-serif;
+            /* background-color: red; */
+        }
+        
+        .container {
+            color: white;
+            padding-left: 40px;
+            text-align: left;
+        }
+        
+        .container.loki,
+        p {
+            box-sizing: border-box;
+            color: white;
+        }
+        
+        header span.expand {
+            width: 25px;
+            margin-left: -20px;
+            padding: 0;
+            cursor: pointer;
+            margin-left: -10px;
+            display: inline-block;
+            position: relative;
+        }
+        
+        .expand.jak {
+            font-size: 16px;
+            color: #2b2b2b;
+        }
+        
+        .jak {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .loki {
+            /* background-color: blueviolet; */
+            height: 100vh;
+            max-width: 70vw;
+            margin: auto;
+            background-image: url(dd.jpeg);
+        }
+        
+        .loki .image img {
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href=""> home</a>
+        </nav>
+        <span class="expand">
+        <i class="jak"> </i>
+      </span>
+        <nav><a href=""> about</a></nav>
+        <nav>
+            <a href=""> work</a>
+        </nav>
+        <nav><a href=""> sell</a></nav>
+        <nav><a href=""> help</a></nav>
+    </header>
+    <div class="container">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, cupiditate distinctio! Perspiciatis sapiente iure ad recusandae velit doloremque rerum minima, illum voluptas accusantium odio placeat, non aliquam praesentium magni ex. Lorem ipsum dolor
+        sit, amet consectetur adipisicing elit. Sint voluptatibus pariatur dignissimos, beatae tenetur iusto perspiciatis voluptate nisi maxime fuga labore nihil, tempora quisquam consequuntur ipsum provident aliquam adipisci. Dolorem? Porro iure vel
+    </div>
+    <div class="loki">
+        <div class="image">
+            <img src="dd.jpeg" width="200px" height="200px">
+        </div>
+
+
+    </div>
+</body>
+
+</html>

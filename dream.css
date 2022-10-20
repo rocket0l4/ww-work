@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header {
+    width: 1600px;
+    height: 80vh;
+    background-color: red black;
+    background: size 1000px;
+    background-repeat: no-repeat;
+} */
+
+.first {
+    background-color: rgb(224, 49, 49);
+    width: 1600px;
+}
+
+.first img {
+    padding: 0;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 50vh;
+    height: 40px;
+    padding: 0px;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+main button {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.loop {
+    background-color: black;
+    width: 1600px;
+    height: 200px;
+}
+
+k {
+    position: right;
+}
+
+.last {
+    background-color: black;
+    font-size: 20px;
+}
+
+j {
+    color: white;
+    padding-left: 190vh;
+}
+
+
+/* imp work */
+
+@media (min-width:1000px) {
+    img {
+        display: ruby;
+    }
+    .loop button {
+        display: ruby;
+        justify-content: center;
+        width: 400px;
+    }
+     :first {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        display: block;
+    }
+    .first {
+        width: 600;
+    }
+}

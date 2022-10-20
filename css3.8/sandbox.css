@@ -1,0 +1,19 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.layout1 artical {
+    width: 58%;
+    float: left;
+}
+
+.layout1 aside {
+    width: 40%;
+    float: right;
+}
+
+.layout1 footer {
+    clear: both;
+}
